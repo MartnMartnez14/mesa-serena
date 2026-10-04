@@ -63,6 +63,15 @@ Creado por **[Martín Martínez García (Bluffer)](https://github.com/MartnMartn
 
 Código e ilustraciones originales: [MIT](LICENSE). Textos editoriales originales: [CC BY 4.0](CONTENT_LICENSE.md). Datos USDA: dominio público con atribución; conservar procedencia y límites. Marcas y textos de las fuentes enlazadas mantienen sus derechos.
 
-El enlace de apoyo voluntario está desactivado hasta configurar una dirección confirmada en `data/config.json`. Ninguna función depende de donar.
+### Apoyar el proyecto
+
+¿Te gustó el proyecto? Si querés colaborar de forma voluntaria, podés invitarme a un cafecito o mate. Es totalmente opcional y me ayuda a seguir trabajando en la aplicación.
+
+- ☕ [Ko-fi](https://ko-fi.com/martinmartinezgarcia)
+- 💙 [PayPal](https://www.paypal.com/paypalme/blufferedtwitch)
+- 🛰️ [Internet satelital Starlink](https://starlink.com/es?referral=RC-DF-5848974-78640-68&app_source=share)
+- Martín Martínez — Cuenta Prex: 35502
+
+El enlace de Starlink es de afiliado y puede beneficiar al autor. Los beneficios, incluido un posible mes de servicio, dependen de las condiciones vigentes de Starlink. Los apoyos son voluntarios. Ninguna función depende de donar.
 
 Para reportar errores, abrir un issue **sin adjuntar mediciones, diarios ni respaldos personales**.
