@@ -1,0 +1,29 @@
+const PREFIX = 'mesa-serena:' + self.registration.scope + ':';
+const CACHE = PREFIX + VERSION;
+const URLS = FILES.map(p => new URL(p,self.registration.scope).href);
+self.addEventListener('install',event=>event.waitUntil((async()=>{
+ try {const cache=await caches.open(CACHE);await cache.addAll(URLS.map(url=>new Request(url,{cache:'reload'})));}
+ catch(error){await caches.delete(CACHE);throw error;}
+})()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{
+ for(const name of await caches.keys())if(name.startsWith(PREFIX)&&name!==CACHE)await caches.delete(name);
+ await self.clients.claim();
+})()));
+self.addEventListener('fetch',event=>{
+ if(event.request.method!=='GET')return;
+ const url=new URL(event.request.url);
+ if(!url.href.startsWith(self.registration.scope))return;
+ if(event.request.mode==='navigate')event.respondWith((async()=>{
+  const cache=await caches.open(CACHE);return await cache.match(new URL('index.html',self.registration.scope).href)||fetch(event.request);
+ })());
+ else if(URLS.includes(url.href))event.respondWith((async()=>{
+  const cache=await caches.open(CACHE);return await cache.match(event.request)||fetch(event.request);
+ })());
+});
+self.addEventListener('message',event=>{
+ if(event.data?.type==='SKIP_WAITING')event.waitUntil(self.skipWaiting());
+ if(event.data?.type==='CHECK_READY')event.waitUntil((async()=>{
+  const cache=await caches.open(CACHE);const matches=await Promise.all(URLS.map(u=>cache.match(u)));
+  event.ports[0]?.postMessage({ready:matches.every(Boolean),version:VERSION});
+ })());
+});

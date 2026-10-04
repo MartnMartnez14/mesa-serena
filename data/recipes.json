@@ -1,0 +1,409 @@
+[
+  {
+    "id": "recipe-1",
+    "name": "Ensalada tibia de lentejas",
+    "description": "Una base sencilla para aprovechar legumbres ya cocidas.",
+    "minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "food": "fdc-172421",
+        "grams": 300
+      },
+      {
+        "food": "fdc-170457",
+        "grams": 200
+      },
+      {
+        "food": "fdc-168409",
+        "grams": 100
+      },
+      {
+        "food": "fdc-171413",
+        "grams": 10
+      },
+      {
+        "food": "fdc-167746",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "Usá lentejas previamente cocidas y escurridas. Lavá el tomate, el pepino y el limón.",
+      "Cortá el tomate y el pepino. Entibiá las lentejas si lo preferís.",
+      "Mezclá con el aceite y la pulpa o jugo del limón. Repartí en dos porciones."
+    ],
+    "tags": [
+      "Económica",
+      "Vegetal"
+    ],
+    "allergens": [],
+    "substitution": "Podés usar porotos cocidos. La estimación corresponde solo a los ingredientes listados.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "recipe-2",
+    "name": "Avena con banana y nueces",
+    "description": "Un desayuno caliente, con ingredientes de todos los días.",
+    "minutes": 12,
+    "servings": 1,
+    "ingredients": [
+      {
+        "food": "fdc-169705",
+        "grams": 40
+      },
+      {
+        "food": "fdc-173647",
+        "grams": 160
+      },
+      {
+        "food": "fdc-173944",
+        "grams": 100
+      },
+      {
+        "food": "fdc-170187",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "Cociná la avena en el agua siguiendo el tiempo de cocción del envase. Agregá agua si hace falta.",
+      "Cortá la banana sin cáscara.",
+      "Serví la avena con la banana y las nueces picadas."
+    ],
+    "tags": [
+      "Desayuno",
+      "Vegetal"
+    ],
+    "allergens": [
+      "Nueces",
+      "Avena: verificar gluten y contaminación cruzada"
+    ],
+    "substitution": "Cambiá la banana por pera. Revisá alergias antes de sustituir frutos secos.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "recipe-3",
+    "name": "Tostada de palta y huevo",
+    "description": "Para resolver una comida breve con una preparación conocida.",
+    "minutes": 15,
+    "servings": 1,
+    "ingredients": [
+      {
+        "food": "fdc-172688",
+        "grams": 80
+      },
+      {
+        "food": "fdc-171705",
+        "grams": 70
+      },
+      {
+        "food": "fdc-173424",
+        "grams": 50
+      },
+      {
+        "food": "fdc-170457",
+        "grams": 80
+      }
+    ],
+    "steps": [
+      "Usá un huevo completamente cocido; pelalo y pesá la parte comestible.",
+      "Tostá el pan. Pisá la palta y lavá y cortá el tomate.",
+      "Armá las tostadas con palta, tomate y huevo."
+    ],
+    "tags": [
+      "Rápida"
+    ],
+    "allergens": [
+      "Trigo / gluten",
+      "Huevo"
+    ],
+    "substitution": "Podés servir los ingredientes con papa cocida en lugar de pan; los valores cambian.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "recipe-4",
+    "name": "Bowl de quinoa y garbanzos",
+    "description": "Colores y texturas para comer a tu ritmo.",
+    "minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "food": "fdc-168917",
+        "grams": 250
+      },
+      {
+        "food": "fdc-173757",
+        "grams": 250
+      },
+      {
+        "food": "fdc-170108",
+        "grams": 100
+      },
+      {
+        "food": "fdc-168409",
+        "grams": 100
+      },
+      {
+        "food": "fdc-171413",
+        "grams": 10
+      },
+      {
+        "food": "fdc-167746",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "Partí de quinoa y garbanzos ya cocidos.",
+      "Lavá el morrón, el pepino y el limón. Cortá las verduras pequeñas.",
+      "Mezclá todo con aceite y limón y dividí en dos platos."
+    ],
+    "tags": [
+      "Vegetal",
+      "Para llevar"
+    ],
+    "allergens": [],
+    "substitution": "El arroz cocido puede reemplazar a la quinoa, con una composición diferente.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "recipe-5",
+    "name": "Crema suave de calabaza",
+    "description": "Una preparación cálida, sin pasos complicados.",
+    "minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "food": "fdc-168449",
+        "grams": 400
+      },
+      {
+        "food": "fdc-170440",
+        "grams": 200
+      },
+      {
+        "food": "fdc-173647",
+        "grams": 300
+      },
+      {
+        "food": "fdc-171413",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "Usá calabaza y papa ya hervidas y escurridas, en los pesos indicados.",
+      "Calentalas con el agua hasta que estén bien calientes.",
+      "Pisá o procesá con cuidado. Añadí el aceite y ajustá la textura con agua."
+    ],
+    "tags": [
+      "Económica",
+      "Vegetal"
+    ],
+    "allergens": [],
+    "substitution": "Podés variar la proporción de papa y calabaza; la estimación dejará de ser la indicada.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "recipe-6",
+    "name": "Yogur con frutillas y almendras",
+    "description": "Una idea fresca para desayuno o colación.",
+    "minutes": 5,
+    "servings": 1,
+    "ingredients": [
+      {
+        "food": "fdc-171284",
+        "grams": 170
+      },
+      {
+        "food": "fdc-167762",
+        "grams": 120
+      },
+      {
+        "food": "fdc-170567",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "Lavá las frutillas y retirales las hojas.",
+      "Cortalas y mezclalas con el yogur.",
+      "Agregá las almendras picadas justo antes de servir."
+    ],
+    "tags": [
+      "Sin cocción",
+      "Rápida"
+    ],
+    "allergens": [
+      "Leche",
+      "Almendras"
+    ],
+    "substitution": "Usá una alternativa vegetal apropiada si la necesitás; su composición puede ser muy distinta.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "recipe-7",
+    "name": "Arroz integral con pollo y brócoli",
+    "description": "Una forma de combinar preparaciones que ya tenés listas.",
+    "minutes": 12,
+    "servings": 2,
+    "ingredients": [
+      {
+        "food": "fdc-169704",
+        "grams": 300
+      },
+      {
+        "food": "fdc-171477",
+        "grams": 200
+      },
+      {
+        "food": "fdc-169967",
+        "grams": 250
+      },
+      {
+        "food": "fdc-171413",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "Usá arroz cocido, pollo completamente asado y brócoli hervido; los pesos son después de cocinar.",
+      "Cortá el pollo. Calentá los tres ingredientes de forma uniforme y completa.",
+      "Añadí el aceite y repartí. Usá preparaciones conservadas adecuadamente en frío."
+    ],
+    "tags": [
+      "Comida principal"
+    ],
+    "allergens": [],
+    "substitution": "Podés reemplazar el pollo por tofu; comprobá soja y otras alergias. Los valores cambiarán.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "recipe-8",
+    "name": "Ensalada de papa y atún",
+    "description": "Una combinación práctica sin cocinar desde cero.",
+    "minutes": 12,
+    "servings": 2,
+    "ingredients": [
+      {
+        "food": "fdc-170440",
+        "grams": 300
+      },
+      {
+        "food": "fdc-171986",
+        "grams": 180
+      },
+      {
+        "food": "fdc-170457",
+        "grams": 150
+      },
+      {
+        "food": "fdc-171413",
+        "grams": 10
+      },
+      {
+        "food": "fdc-167746",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "Partí de papa ya hervida y atún en agua escurrido.",
+      "Lavá y cortá el tomate y el limón.",
+      "Mezclá la papa en cubos con el atún, tomate, aceite y limón. Serví o refrigerá pronto."
+    ],
+    "tags": [
+      "Rápida",
+      "Comida principal"
+    ],
+    "allergens": [
+      "Pescado"
+    ],
+    "substitution": "Garbanzos cocidos pueden reemplazar al atún; recalculá si necesitás los valores.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "recipe-9",
+    "name": "Boniato con porotos negros",
+    "description": "Dos preparaciones simples que se encuentran en el plato.",
+    "minutes": 12,
+    "servings": 2,
+    "ingredients": [
+      {
+        "food": "fdc-168484",
+        "grams": 300
+      },
+      {
+        "food": "fdc-173735",
+        "grams": 300
+      },
+      {
+        "food": "fdc-170457",
+        "grams": 150
+      },
+      {
+        "food": "fdc-171413",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "Usá boniato hervido sin piel y porotos ya cocidos.",
+      "Lavá y cortá el tomate.",
+      "Calentá boniato y porotos. Serví con tomate y aceite."
+    ],
+    "tags": [
+      "Vegetal",
+      "Económica"
+    ],
+    "allergens": [],
+    "substitution": "Lentejas cocidas son otra opción, con valores nutricionales diferentes.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "recipe-10",
+    "name": "Ensalada de cebada y arvejas",
+    "description": "Una idea para variar los cereales de la semana.",
+    "minutes": 12,
+    "servings": 2,
+    "ingredients": [
+      {
+        "food": "fdc-170285",
+        "grams": 300
+      },
+      {
+        "food": "fdc-170420",
+        "grams": 200
+      },
+      {
+        "food": "fdc-170108",
+        "grams": 100
+      },
+      {
+        "food": "fdc-171413",
+        "grams": 10
+      },
+      {
+        "food": "fdc-167746",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "Usá cebada y arvejas previamente cocidas.",
+      "Lavá el morrón y el limón; cortá el morrón.",
+      "Mezclá con el aceite y el limón. Serví tibia o enfriá y refrigerá pronto."
+    ],
+    "tags": [
+      "Vegetal",
+      "Para llevar"
+    ],
+    "allergens": [
+      "Cebada / gluten"
+    ],
+    "substitution": "La quinoa cocida permite otra variante; las estimaciones corresponden a la cebada.",
+    "source": "usda",
+    "reviewed": "2026-10-04"
+  }
+]

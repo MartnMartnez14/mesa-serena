@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#315b48">
+<meta name="description" content="Una guía gratuita de alimentación y pequeños hábitos. Sin cuentas, con registros locales y disponible sin conexión.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<title>Mesa Serena · Alimentación a tu ritmo</title>
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="assets/icon-192.png"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<aside class="sidebar">
+<a class="brand" href="#hoy"><img src="assets/icon.svg" alt="" width="42" height="42"><span>Mesa Serena<small>ALIMENTACIÓN A TU RITMO</small></span></a>
+<p class="nav-label">TU ESPACIO</p>
+<nav aria-label="Navegación principal">
+<a href="#hoy" data-nav="hoy"><span aria-hidden="true">◷</span> Hoy</a>
+<a href="#explorar" data-nav="explorar"><span aria-hidden="true">⌘</span> Explorar</a>
+<a href="#progreso" data-nav="progreso"><span aria-hidden="true">↗</span> Progreso</a>
+<a href="#aprender" data-nav="aprender"><span aria-hidden="true">▤</span> Aprender</a>
+</nav>
+<div class="sidebar-bottom"><p class="local-note"><span aria-hidden="true">♧</span> Un espacio para vos.<br> Tus registros se quedan aquí.</p><a href="#ajustes" class="settings-link">Ajustes y privacidad <span aria-hidden="true">↗</span></a><small>GRATUITA · SIN PUBLICIDAD</small></div>
+</aside>
+<div class="workspace">
+<header class="topbar"><span id="date-label"></span><div class="top-actions"><span id="offline-status" class="status" role="status">Preparando modo offline…</span><button id="install" class="small" hidden>Instalar</button><button id="theme" class="icon-btn" aria-label="Cambiar tema">◐</button></div></header>
+<div id="update-banner" class="notice" hidden>Hay una nueva versión. Tus registros se conservarán. <button id="update">Actualizar cuando estés listo</button></div>
+<div id="storage-error" class="notice error" role="alert" hidden></div>
+<main id="main" tabindex="-1"><p>Cargando tu espacio…</p></main>
+<footer>Educación para adultos · Sin diagnósticos ni dietas personalizadas.<br><a href="#fuentes">Fuentes y criterios</a> <span aria-hidden="true">·</span> <a href="#ajustes">Privacidad y respaldos</a><p id="credit"></p></footer>
+</div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<dialog id="confirm"><form method="dialog"><h2 id="confirm-title">Confirmar</h2><p id="confirm-text"></p><div class="actions"><button value="cancel">Cancelar</button><button value="ok" class="primary">Continuar</button></div></form></dialog>
+<noscript><div class="notice">La guía interactiva necesita JavaScript para guardar datos en tu dispositivo. Podés leer nuestras <a href="docs/PRIVACY.md">condiciones de privacidad</a> y <a href="docs/science/SOURCES.md">fuentes</a>.</div></noscript>
+</body></html>

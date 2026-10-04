@@ -1,0 +1,210 @@
+[
+  {
+    "id": "article-1",
+    "name": "Una alimentación que se adapte a vos",
+    "description": "Empezar por variedad, no por perfección.",
+    "source": "who",
+    "sections": [
+      {
+        "title": "Una base flexible",
+        "text": "La OMS propone diversidad, equilibrio, moderación y adecuación como principios generales. Frutas, verduras, legumbres y cereales integrales pueden formar parte de esa variedad. No hace falta que cada comida sea idéntica ni que una sola comida represente toda tu alimentación."
+      },
+      {
+        "title": "Una idea para probar",
+        "text": "Como propuesta práctica de esta app, mirá una comida habitual y pensá qué podrías sumar o variar con lo que ya tenés. Puede ser una verdura disponible o una preparación que te resulte sencilla. Esta actividad es una sugerencia editorial, no una pauta clínica."
+      },
+      {
+        "title": "Tu contexto importa",
+        "text": "Anotá qué opciones te gustan, cuánto tiempo tenés y qué alimentos podés conseguir. No necesitás comprar productos especiales para usar esta guía. Las preferencias, la cultura y el presupuesto forman parte de las decisiones cotidianas."
+      }
+    ],
+    "reviewed": "2026-10-04",
+    "reviewDue": "2027-10-04",
+    "status": "Revisión documental",
+    "minutes": 2
+  },
+  {
+    "id": "article-2",
+    "name": "Entender el balance energético",
+    "description": "Una explicación, no una meta de calorías.",
+    "source": "nice",
+    "sections": [
+      {
+        "title": "Qué significa",
+        "text": "El balance energético relaciona la energía que entra con la que el cuerpo utiliza. NICE contempla diferentes enfoques para reducir la ingesta energética en el tratamiento del peso, con apoyo y seguimiento. Esta app no calcula un déficit ni prescribe una dieta."
+      },
+      {
+        "title": "Lo que no dice una cifra",
+        "text": "Una estimación de energía de un alimento no es una instrucción sobre cuánto debés comer. Tampoco predice cuánto va a cambiar tu peso. Los datos de la guía representan alimentos de referencia, no una medición de tu plato."
+      },
+      {
+        "title": "Cómo usar esta información",
+        "text": "Podés consultar una ficha para conocer un ingrediente y luego cerrar la pantalla sin llevar una cuenta diaria. Si necesitás un plan de reducción de peso adaptado a tu salud, consultá a un profesional. Aquí priorizamos observación y pequeños hábitos elegidos por vos."
+      }
+    ],
+    "reviewed": "2026-10-04",
+    "reviewDue": "2027-10-04",
+    "status": "Revisión documental",
+    "minutes": 2
+  },
+  {
+    "id": "article-3",
+    "name": "Porciones sin reglas rígidas",
+    "description": "Los gramos de la guía son ejemplos de cálculo.",
+    "source": "usda",
+    "sections": [
+      {
+        "title": "Una referencia comparable",
+        "text": "Las fichas parten de datos por 100 gramos de parte comestible. El selector permite calcular otra cantidad. La porción inicial es un ejemplo editorial, no una recomendación sobre lo que necesitás comer."
+      },
+      {
+        "title": "Antes o después de cocinar",
+        "text": "Revisá siempre el estado del alimento: arroz seco y arroz cocido no son la misma referencia. En las recetas de esta app, cada ingrediente indica el estado al que corresponde su peso. No reemplaces uno por otro esperando el mismo resultado."
+      },
+      {
+        "title": "Una herramienta opcional",
+        "text": "Si querés aprender cómo se ve una cantidad, podés pesarla una vez y observarla. No es necesario pesar cada comida ni usar una balanza para registrar hábitos. Tampoco usamos categorías de alimentos buenos o malos."
+      },
+      {
+        "title": "Límites del cálculo",
+        "text": "Variedad, marca, preparación y agua retenida pueden cambiar la composición. Los números se muestran redondeados. Si falta un dato, indicamos «Sin dato» en lugar de inventar un cero."
+      }
+    ],
+    "reviewed": "2026-10-04",
+    "reviewDue": "2027-10-04",
+    "status": "Revisión documental",
+    "minutes": 2
+  },
+  {
+    "id": "article-4",
+    "name": "Fibra y variedad en el plato",
+    "description": "Reconocer alimentos que la aportan.",
+    "source": "who",
+    "sections": [
+      {
+        "title": "Dónde encontrarla",
+        "text": "Frutas, verduras, legumbres y cereales integrales son fuentes alimentarias de fibra. La orientación de la OMS favorece estos grupos dentro de una alimentación variada."
+      },
+      {
+        "title": "Una exploración sencilla",
+        "text": "Como ejercicio opcional, buscá en la guía una legumbre que conozcas y una que no suelas preparar. Mirá su estado de cocción y alguna receta que la utilice. Podés guardar una idea en favoritos para otro día; consultarla no te compromete a cambiar toda tu alimentación."
+      },
+      {
+        "title": "Sin convertirlo en una competencia",
+        "text": "No añadimos un objetivo automático de gramos de fibra. La ficha es informativa y no debe usarse para ajustar tratamientos digestivos. Si tenés una indicación clínica o molestias persistentes, pedí orientación individual antes de hacer cambios importantes."
+      }
+    ],
+    "reviewed": "2026-10-04",
+    "reviewDue": "2027-10-04",
+    "status": "Revisión documental",
+    "minutes": 2
+  },
+  {
+    "id": "article-5",
+    "name": "Hambre, saciedad y atención",
+    "description": "Observar sin puntuarse.",
+    "source": "nice",
+    "sections": [
+      {
+        "title": "Un espacio para describir",
+        "text": "La nota del diario puede servir para escribir cómo fue una comida: si tuviste tiempo, si te gustó o si te resultó práctica. No necesitás asignarte una nota ni justificar lo que comiste. Esta es una opción de diseño de Mesa Serena, no una intervención validada."
+      },
+      {
+        "title": "No clasificamos la saciedad",
+        "text": "No asignamos a cada alimento una puntuación universal de saciedad. Sería una simplificación que no podemos defender para todas las personas y situaciones. Tampoco usamos el hambre como prueba de éxito ni sugerimos ignorarla."
+      },
+      {
+        "title": "Elegí cuánto registrar",
+        "text": "Podés dejar la nota vacía, ocultar las mediciones o usar solo la biblioteca. Si el registro genera preocupación, culpa o necesidad de compensar comidas, dejá de usar esa función y buscá apoyo profesional. Esta guía no está diseñada para tratar trastornos alimentarios."
+      }
+    ],
+    "reviewed": "2026-10-04",
+    "reviewDue": "2027-10-04",
+    "status": "Revisión documental",
+    "minutes": 2
+  },
+  {
+    "id": "article-6",
+    "name": "Planificar con lo que tenés",
+    "description": "Menos decisiones, una comida por vez.",
+    "source": "who",
+    "sections": [
+      {
+        "title": "Un ejercicio de organización",
+        "text": "Elegí una comida de mañana. Revisá qué ingredientes hay y qué tiempo tenés disponible. Anotá una opción sencilla. Este ejercicio es una propuesta editorial para organizarte; no promete resultados sobre el peso."
+      },
+      {
+        "title": "Un pequeño inventario",
+        "text": "Podés escribir tres listas breves: alimentos que ya tenés, preparaciones que sabés hacer y productos que faltan. Si una receta requiere demasiadas compras, guardala para otra ocasión y buscá una alternativa."
+      },
+      {
+        "title": "Dejar lugar a cambios",
+        "text": "Un plan puede cambiar. Si no cocinaste lo previsto, el diario sigue disponible al día siguiente sin reiniciar rachas ni mostrar castigos. Elegí hábitos que te resulten útiles y modificá los que ya no tengan sentido."
+      },
+      {
+        "title": "Seguridad cotidiana",
+        "text": "Revisá fechas y condiciones de conservación de los envases. Las recetas no sustituyen las indicaciones de seguridad de cada producto. Los tiempos mostrados suponen que los ingredientes descritos como cocidos ya están preparados."
+      }
+    ],
+    "reviewed": "2026-10-04",
+    "reviewDue": "2027-10-04",
+    "status": "Revisión documental",
+    "minutes": 2
+  },
+  {
+    "id": "article-7",
+    "name": "Leer tu progreso con calma",
+    "description": "Una medición no resume tu salud.",
+    "source": "anthro",
+    "sections": [
+      {
+        "title": "Qué muestra la app",
+        "text": "El gráfico muestra los valores que registraste en sus fechas reales. La tabla permite leerlos sin depender de colores. No calculamos una fecha objetivo ni calificamos subir o bajar como éxito o fracaso."
+      },
+      {
+        "title": "IMC y cintura/altura",
+        "text": "El IMC divide peso en kilogramos por altura en metros al cuadrado. La relación cintura/altura utiliza ambas medidas en la misma unidad. Son cálculos informativos: el IMC no distingue grasa de músculo y no describe por sí solo la salud individual."
+      },
+      {
+        "title": "Límites de interpretación",
+        "text": "NICE utiliza cintura/altura junto con otras evaluaciones, en particular en adultos con IMC inferior a 35. No mostramos categorías de riesgo ni diagnósticos. Estos cálculos no son apropiados para interpretar embarazo ni sustituyen una evaluación personal."
+      },
+      {
+        "title": "Otras formas de observar",
+        "text": "También podés mirar qué hábitos registraste. El porcentaje se calcula sobre hábitos planificados en días con registro, no sobre días que dejaste en blanco. Ausencia de datos no significa incumplimiento."
+      }
+    ],
+    "reviewed": "2026-10-04",
+    "reviewDue": "2027-10-04",
+    "status": "Revisión documental",
+    "minutes": 2
+  },
+  {
+    "id": "article-8",
+    "name": "Cuándo buscar orientación",
+    "description": "Conocer los límites también es autocuidado.",
+    "source": "nice",
+    "sections": [
+      {
+        "title": "Para quién es esta guía",
+        "text": "Mesa Serena ofrece educación general para adultos. No es un tratamiento de la obesidad, una consulta ni un sistema de detección de enfermedades. Tener acceso a una ficha no significa que esa preparación sea adecuada para una situación clínica específica."
+      },
+      {
+        "title": "Situaciones que necesitan otro acompañamiento",
+        "text": "No ofrecemos pautas para menores, embarazo, lactancia, trastornos alimentarios, cirugía bariátrica ni enfermedades con necesidades nutricionales particulares. Si tenés una indicación médica, no la cambies por lo que leas aquí."
+      },
+      {
+        "title": "Pedir ayuda",
+        "text": "Ante cambios de peso involuntarios, malestar persistente o preocupación por la relación con la comida, consultá a un profesional sanitario. Ante una urgencia, acudí a los servicios de tu localidad; esta app no evalúa síntomas ni tiene seguimiento humano."
+      },
+      {
+        "title": "Cómo se revisó",
+        "text": "El contenido tiene fuentes y revisión documental, no revisión clínica independiente. Podés consultar las referencias y reportar un error sin compartir datos personales. La fecha de revisión no significa que hayamos comprobado que la app mejora resultados de salud."
+      }
+    ],
+    "reviewed": "2026-10-04",
+    "reviewDue": "2027-10-04",
+    "status": "Revisión documental",
+    "minutes": 2
+  }
+]

@@ -1,0 +1,18 @@
+name: Validate application
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Calculations, backups and content
+        run: node tests/core.test.mjs
+      - name: JavaScript syntax
+        run: |
+          node --check js/app.js
+          node --check js/db.js
+          node --check sw.js
+      - name: Source integrity and offline manifest
+        run: python3 scripts/validate.py

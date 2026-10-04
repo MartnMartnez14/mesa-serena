@@ -1,0 +1,18 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {fresh,number,bmi,ratio,portion,recipeTotals,validateState,parseBackup,backup,today,validDate} from '../js/core.js';
+const foods=JSON.parse(readFileSync(new URL('../data/foods.json',import.meta.url)));
+const recipes=JSON.parse(readFileSync(new URL('../data/recipes.json',import.meta.url)));
+const articles=JSON.parse(readFileSync(new URL('../data/articles.json',import.meta.url)));
+test('anthropometry: known cases, unavailable values',()=>{assert.equal(bmi(80,200),20);assert.equal(ratio(80,160),.5);assert.equal(bmi(null,170),null);assert.equal(ratio(80,null),null);});
+test('decimal comma, boundaries, invalid values and empties',()=>{assert.equal(number('80,5',20,400),80.5);assert.equal(number('',20,400),null);for(const v of ['NaN','Infinity','1e2','-20','80kg','1,2,3','401'])assert.throws(()=>number(v,20,400));});
+test('portion conversion retains unknowns',()=>{assert.deepEqual(portion({energy:200,protein:10,fiber:null},150),{energy:300,protein:15,fiber:null});});
+test('recipe known sum per serving and unknown propagation',()=>{const fs=[{id:'a',nutrients:{energy:100,protein:10,carbs:20,fat:1,fiber:null}}];const r={servings:2,ingredients:[{food:'a',grams:300}]};assert.deepEqual(recipeTotals(r,fs),{energy:150,protein:15,carbs:30,fat:1.5,fiber:null});});
+test('50 distinct sourced foods, 10 complete recipes, 8 sourced articles',()=>{assert.equal(foods.length,50);assert.equal(new Set(foods.map(f=>f.id)).size,50);assert.equal(recipes.length,10);assert.equal(articles.length,8);for(const f of foods){assert.ok(f.sourceId&&f.sourceDescription&&f.state);for(const n of Object.values(f.nutrients))assert.ok(n===null||Number.isFinite(n)&&n>=0);}for(const r of recipes){assert.ok(r.steps.length>=3);assert.ok(recipeTotals(r,foods).energy>0);}for(const a of articles)assert.ok(a.source&&a.sections.length>=3);});
+test('real USDA apple 100 g energy is 52 kcal',()=>{assert.equal(foods.find(f=>f.sourceId==='171688').nutrients.energy,52);});
+test('backup roundtrip, text is retained literally',()=>{const s=fresh();s.entries=[{date:today(),weight:80.5,waist:null,note:'<img src=x onerror=alert(1)>',planned:['fruta'],done:['fruta']}];assert.deepEqual(parseBackup(backup(s)),s);});
+test('reject corrupted, foreign and future backup formats',()=>{for(const v of ['{}','oops',JSON.stringify({app:'mesa-serena',version:2,data:fresh()})])assert.throws(()=>parseBackup(v));assert.throws(()=>parseBackup('x'.repeat(5_000_001)));});
+test('invalid imports do not normalize dangerous measurements or duplicates',()=>{const s=fresh();s.entries=[{date:today(),weight:'80',waist:null,note:'',planned:[],done:[]}];assert.throws(()=>validateState(s));s.entries[0].weight=80;s.entries.push({...s.entries[0]});assert.throws(()=>validateState(s));s.entries=[];s.habits=['fruta','verdura','casera','agua'];assert.throws(()=>validateState(s));});
+test('date validity and future rejection',()=>{assert.equal(validDate('2024-02-29'),true);for(const d of ['2025-02-29','2026-13-01','9999-01-01','foo'])assert.equal(validDate(d),false);});
+test('favorites and profiles validated, unknown properties discarded',()=>{const s=fresh();s.favorites=['fdc-171688'];s.profile.hiddenPayload='x';assert.equal(validateState(s).profile.hiddenPayload,undefined);s.favorites=['javascript:alert(1)'];assert.throws(()=>validateState(s));});

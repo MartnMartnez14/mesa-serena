@@ -1,0 +1,47 @@
+[
+  {
+    "id": "who",
+    "title": "OMS · Alimentación saludable",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "year": 2026,
+    "kind": "Recomendaciones poblacionales",
+    "reviewed": "2026-10-04",
+    "limits": "Orientación general; no sustituye indicaciones individuales."
+  },
+  {
+    "id": "nice",
+    "title": "NICE NG246 · Alimentación y actividad física",
+    "url": "https://www.nice.org.uk/guidance/ng246/chapter/Physical-activity-and-diet",
+    "year": 2025,
+    "kind": "Guía clínica",
+    "reviewed": "2026-10-04",
+    "limits": "Contexto sanitario británico. No trasladamos sus tratamientos a una app de autocuidado."
+  },
+  {
+    "id": "anthro",
+    "title": "NICE NG246 · Evaluación antropométrica",
+    "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity",
+    "year": 2025,
+    "kind": "Guía clínica",
+    "reviewed": "2026-10-04",
+    "limits": "El IMC no describe por sí solo la salud. La relación cintura/altura tiene límites de aplicación; no emitimos categorías de riesgo."
+  },
+  {
+    "id": "usda",
+    "title": "USDA · FoodData Central SR Legacy",
+    "url": "https://fdc.nal.usda.gov/download-datasets/",
+    "year": 2018,
+    "kind": "Base de composición de alimentos",
+    "reviewed": "2026-10-04",
+    "limits": "Datos históricos de alimentos de referencia estadounidenses, no análisis de tu comida ni valores de todas las marcas. Por 100 g de parte comestible."
+  },
+  {
+    "id": "privacy",
+    "title": "GitHub Pages · Alojamiento y registros técnicos",
+    "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+    "year": 2026,
+    "kind": "Documentación del alojamiento",
+    "reviewed": "2026-10-04",
+    "limits": "GitHub registra IP por seguridad. No recibe el diario a través de esta aplicación."
+  }
+]

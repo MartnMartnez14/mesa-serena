@@ -1,0 +1,11 @@
+{
+  "dataset": "USDA FoodData Central SR Legacy, April 2018",
+  "publication": "2019-04-01",
+  "retrieved": "2026-10-04",
+  "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+  "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+  "license": "Public domain / CC0; USDA attribution retained",
+  "basis": "Per 100 g edible portion; energy kcal, remaining nutrients g",
+  "portionPolicy": "Editorial examples in grams, not USDA household measures or dietary prescriptions",
+  "records": 50
+}
